@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/cse', function () {
     return view('cse');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
